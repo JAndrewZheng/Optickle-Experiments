@@ -1,0 +1,5 @@
+{Undefined function 'list' for input arguments of type 'Optickle'.
+
+Error in simulate_ETM (line 36)
+list(opt); % Use the `list` function to display optics
+} 

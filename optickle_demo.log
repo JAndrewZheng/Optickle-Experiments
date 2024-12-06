@@ -1,0 +1,39 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2022 The MathWorks, Inc.
+                  R2022b (9.13.0.2049777) 64-bit (glnxa64)
+                              August 24, 2022
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+DC fields (fDC matrix):
+                                   | -20 MHz    DC     +20 MHz  
+-----------------------------------+------------------------------
+             Laser->out --> AM<-in | ---  W   100  W   ---  W   
+                AM->out --> PM<-in | e-31 W   100  W   e-31 W   
+              PM->out --> Mod1<-in | e-31 W   100  W   e-31 W   
+              Mod1->out --> IX<-bk | 990 mW    98  W   990 mW   
+                 IX->fr --> EX<-fr |  12 mW    12 kW    12 mW   
+                 EX->fr --> IX<-fr |  12 mW    12 kW    12 mW   
+               IX->bk --> REFL<-in | 990 mW    86  W   990 mW   
+TRANS_TELE->out --> TRANS_SMIR<-fr |  12 uW    12  W    12 uW   
+     TRANS_SMIR->fr --> TRANSa<-in | 5.8 uW   6.0  W   5.8 uW   
+     TRANS_SMIR->bk --> TRANSb<-in | 5.8 uW   6.0  W   5.8 uW   
+         EX->bk --> TRANS_TELE<-in |  12 uW    12  W    12 uW   
+  FlashLight->out --> FakeTele<-in | ---  W   ---  W   1.0 pW   
+          FakeTele->out --> EX<-bk | ---  W   ---  W   1.0 pW   
+
+Probes (sigDC matrix):
+
+    probe | power
+----------+---------
+  REFL_DC |   88  W
+   REFL_I |   22 nW
+   REFL_Q |   23 nW
+TRANSa_DC |  6.0  W
+TRANSb_DC |  6.0  W
+    IX_DC |   12 kW
+    EX_DC |   12 kW
+
