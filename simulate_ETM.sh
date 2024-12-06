@@ -10,9 +10,16 @@
 module load matlab
 
 # Define paths
-OPTICKLE_DIR="/home/brandcol/scratch.regli-prj/Uni_Class_projects/CMSC657_QUANT/Optickle"
-EXPERIMENT_SCRIPT="/home/brandcol/scratch.regli-prj/Uni_Class_projects/CMSC657_QUANT/Optickle/Experiments/simulate_ETM.m"
-LOG_FILE="/home/brandcol/scratch.regli-prj/Uni_Class_projects/CMSC657_QUANT/Optickle/Experiments/simulation_output.log"
+
+### BRANDON PATHS
+# OPTICKLE_DIR="/home/brandcol/scratch.regli-prj/Uni_Class_projects/CMSC657_QUANT/Optickle"
+# EXPERIMENT_SCRIPT="/home/brandcol/scratch.regli-prj/Uni_Class_projects/CMSC657_QUANT/Optickle/Experiments/simulate_ETM.m"
+# LOG_FILE="/home/brandcol/scratch.regli-prj/Uni_Class_projects/CMSC657_QUANT/Optickle/Experiments/simulation_output.log"
+
+### ANDREW PATHS
+OPTICKLE_DIR="/vulcanscratch/azheng15/fall2024/CMSC657/final_project/Optickle"
+EXPERIMENT_SCRIPT="/vulcanscratch/azheng15/fall2024/CMSC657/final_project/Optickle/Optickle-Experiments/simulate_ETM.m"
+LOG_FILE="/vulcanscratch/azheng15/fall2024/CMSC657/final_project/Optickle/Optickle-Experiments/simulate_ETM.log"
 
 # Navigate to the Optickle directory
 cd "$OPTICKLE_DIR"
