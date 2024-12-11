@@ -7,10 +7,10 @@
 #SBATCH --error=optickle_demo.err   # Error log file
 
 # Load the MATLAB module (adjust the module name if needed)
-module load matlab
+# module load matlab
 
 # Navigate to the Optickle directory
-cd /home/brandcol/scratch.regli-prj/Uni_Class_projects/CMSC657_QUANT/Optickle
+cd "C:\Users\jandr\Documents\Schoolwork\Fall 2024\Schoolwork\Homeworks\CMSC657\Optickle-Experiments\Optickle"
 
 # Run MATLAB in no-GUI mode and execute the test
 matlab -nodisplay -nosplash -nodesktop -r "path(pathdef); addpath(genpath(pwd)); demoDetuneFP; exit;"
